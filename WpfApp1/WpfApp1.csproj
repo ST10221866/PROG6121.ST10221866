@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="5974463100201580791_121.jpg" />
+    <None Remove="6235337012873901168_121.jpg" />
+    <None Remove="FB_IMG_15500911104978647.jpg" />
+    <None Remove="LIMOO EX[LOSION.png" />
+    <None Remove="Limoo%28ppLANE%29.png" />
+    <None Remove="pexels-lisa-fotios-1266302.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="5974463100201580791_121.jpg" />
+    <Resource Include="6235337012873901168_121.jpg" />
+    <Resource Include="FB_IMG_15500911104978647.jpg" />
+    <Resource Include="LIMOO EX[LOSION.png" />
+    <Resource Include="Limoo(ppLANE).png" />
+    <Resource Include="pexels-lisa-fotios-1266302.jpg" />
+  </ItemGroup>
+
+</Project>
